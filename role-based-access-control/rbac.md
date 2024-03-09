@@ -7,3 +7,5 @@ But Django uses something similar, So I did a deep dive in the docs/official cod
 
 Seeing this problem from LLD pov, we have to use in-memory stores. There are many ways to approach this. Below is my take and implementation for rbac. I created classes for the permissions instead of storing them as strings. A user class has a set of roles, a role has a set of permissions. This way users are assigned with the permission. For storage, I have a global map, which contains the current permission, user and the roles.  
 For testing, I created a sample-input file which can have the required cases/scenarios.
+
+![LLD diagram for RBAC System](./rbac.png)
