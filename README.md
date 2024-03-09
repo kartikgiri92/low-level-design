@@ -2,6 +2,9 @@
 
 Welcome to the Low Level Design Practice Repository!
 
+## Index
+- [RBAC](./role-based-access-control/rbac.md)
+
 ## Purpose
 
 Showcase What I learnt and How to approach a LLD question.
