@@ -9,3 +9,8 @@ ADD_PERMISSION Customer DefaultPermission1 0
 ADD_ROLE ADMIN@gmail.com Customer 0
 CHECK_USER_PERMISSION ADMIN@gmail.com DefaultPermission1 0
 ADD_ROLE customer@gmail.com Admin 1
+REMOVE_ROLE ADMIN@gmail.com Customer 0
+REMOVE_ROLE ADMIN@gmail.com Customer 0
+REMOVE_PERMISSION Admin AdminPermission2 0
+REMOVE_PERMISSION Admin AdminPermission2 0
+CHECK_USER_PERMISSION ADMIN@gmail.com DefaultPermission1 1
